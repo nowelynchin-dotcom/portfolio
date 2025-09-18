@@ -164,11 +164,13 @@ h2 {
   font-weight: 600;
   font-size: 1rem;
   transition: transform 0.3s;
+  border: 2px solid #03dfeb;
 }
 .skill-card:hover {
   transform: translateY(-6px);
   background: #00adb5;
   color: #fff;
+  box-shadow: 0 8px 20px #2e1d27;
 }
 
 
@@ -275,12 +277,65 @@ html { scroll-behavior: smooth; }
   padding: 70px;
   border-radius: 10px;
   border: 2px solid #03dfeb; 
-}
 
+}
+.contact-form:hover{
+    box-shadow: 0 8px 20px  #03dfeb;
+}
 #about p{
   text-align: justify;
+  background-color: #2e1d27;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  border: 2px solid #03dfeb; 
 }
+
+#about p:hover{
+  text-align: justify;
+  background-color: #00adb5;
+  color: #222;
+   transform: translateY(-6px);
+     box-shadow: 0 8px 20px #2e1d27;
+ 
+}
+
+#education ul{
+  text-align: justify;
+  background-color: #2e1d27;
+  padding: 30px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  border: 2px solid #03dfeb; 
+}
+#education ul:hover{
+  text-align: justify;
+  background-color: #00adb5;
+  color: #222;
+   transform: translateY(-6px);
+   box-shadow: 0 8px 20px #2e1d27;
+ 
+}
+
+#experience ul{
+  text-align: justify;
+  background-color: #2e1d27;
+  padding: 30px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  box-shadow: 0 8px 20px #2e1d27;
+}
+#experience ul:hover{
+  text-align: justify;
+  background-color: #00adb5;
+  color: #222;
+   transform: translateY(-6px);
+  box-shadow: 0 8px 20px #2e1d27;
+ 
+}
+
 
 #experience li{
   text-align: justify;
 }
+
